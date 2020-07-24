@@ -1,7 +1,7 @@
 from selenium import webdriver
 import time
 import pytest
-from demo_pytest.pages.login_page import LoginPage
+from test_pytest.pages.login_page import LoginPage
 
 @pytest.fixture(scope="session")
 def driver(request):

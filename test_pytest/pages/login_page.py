@@ -1,7 +1,7 @@
 import allure
 import pytest
 
-from demo_pytest.common.basepage import BasePage
+from test_pytest.common.basepage import BasePage
 
 host = "http://staging.lsspgyl.com"
 login_url = host + "/purchaser/#/login"

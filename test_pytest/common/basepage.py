@@ -6,8 +6,8 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.select import Select
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.remote.webdriver import WebDriver
-from demo_pytest.common.get_conf import HandleLogger
-from demo_pytest.common.constants import OUTPUTS_DIR
+from test_pytest.common.get_conf import HandleLogger
+from test_pytest.common.constants import OUTPUTS_DIR
 # from Common.upload_file import upload
 
 class BasePage:

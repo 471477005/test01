@@ -10,5 +10,5 @@ def readyml(filePath):
     return data
 
 if __name__ == '__main__':
-    a = readyml(r'D:\启明星\demo_pytest\case\testdata.yml')
+    a = readyml(r'/var/jenkins_home/workspace/test1/test_pytes\case\testdata.yml')
     print(a['test_addr'])

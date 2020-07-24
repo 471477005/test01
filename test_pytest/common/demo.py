@@ -3,7 +3,7 @@ from datetime import datetime
 
 from selenium import webdriver
 
-from demo_pytest.common.constants import OUTPUTS_DIR
+from test_pytest.common.constants import OUTPUTS_DIR
 
 class scr:
     def __init__(self):

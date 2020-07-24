@@ -1,4 +1,4 @@
-from demo_pytest.common.basepage import BasePage
+from test_pytest.common.basepage import BasePage
 import allure
 
 

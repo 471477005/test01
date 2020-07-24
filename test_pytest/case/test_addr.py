@@ -1,8 +1,8 @@
 import os
 import allure
 import pytest
-from demo_pytest.pages.addr_page import addr
-from demo_pytest.common.read_yml import readyml
+from test_pytest.pages.addr_page import addr
+from test_pytest.common.read_yml import readyml
 
 '''
 allure 使用方法
