@@ -88,7 +88,7 @@ class BasePage:
         :param img_doc: 截图说明
         :return:
         '''
-        file_name = OUTPUTS_DIR + "\\{}_{}.png".format(datetime.strftime(datetime.now(), "%Y%m%d%H%M%S"), img_doc)
+        file_name = OUTPUTS_DIR + "/{}_{}.png".format(datetime.strftime(datetime.now(), "%Y%m%d%H%M%S"), img_doc)
         self.driver.save_screenshot(file_name)
         with open(file_name, mode='rb') as f:
             file = f.read()
