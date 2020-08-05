@@ -13,6 +13,7 @@ def driver(request):
     chrome_options.add_argument('--disable-dev-shm-usage')
     _driver = webdriver.Chrome(options=chrome_options)
     _driver.maximize_window()  # 最大化
+    print(_driver.title)
 
     def end():
         '''测试用例完成后，执行终结函数'''
