@@ -6,7 +6,12 @@ from test_pytest.pages.login_page import LoginPage
 @pytest.fixture(scope="session")
 def driver(request):
     '''定义全局driver'''
-    _driver = webdriver.Chrome()
+    chrome_options = webdriver.ChromeOptions()
+    chrome_options.add_argument('--headless')
+    chrome_options.add_argument('--no-sandbox')
+    chrome_options.add_argument('--disable-gpu')
+    chrome_options.add_argument('--disable-dev-shm-usage')
+    _driver = webdriver.Chrome(options=chrome_options)
     _driver.maximize_window()  # 最大化
 
     def end():
