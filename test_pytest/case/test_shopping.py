@@ -9,9 +9,9 @@ allure 使用方法
 https://www.cnblogs.com/123blog/p/12499802.html
 '''
 
+#==============相对路径找文件=================
 curpath=os.path.dirname(os.path.realpath(__file__))
 a=readyml(os.path.join(curpath,'testdata.yml'))     #用相对路径读取文件
-# a=readyml(r'D:\启明星\demo_pytest\case\testdata.yml')
 testdata=a['Testshopping']
 
 
@@ -32,4 +32,5 @@ if __name__ == '__main__':
     pytest.main()
     # os.system('d: && cd D:\启明星\demo_pytest && pytest --alluredir ./report/allure_raw')
     # os.system('allure serve report/allure_raw')
+
 

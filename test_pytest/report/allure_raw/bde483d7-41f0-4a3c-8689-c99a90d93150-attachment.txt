@@ -1,0 +1,21 @@
+[2020-09-02 11:46:28,564] - get_conf.py[line:31] - fuc:__console- INFO: 在返回采购方首页中点击元素<('xpath', '//*[@id="search-bar"]/div/img')>
+[2020-09-02 11:46:28,565] - get_conf.py[line:31] - fuc:__console- INFO: 开始等待页面元素<('xpath', '//*[@id="search-bar"]/div/img')>是否可点击！
+[2020-09-02 11:46:28,587] - get_conf.py[line:31] - fuc:__console- INFO: 页面元素<('xpath', '//*[@id="search-bar"]/div/img')>等待可点击，等待时间：0.02秒
+[2020-09-02 11:46:28,587] - get_conf.py[line:31] - fuc:__console- INFO: 在返回采购方首页中查找元素<('xpath', '//*[@id="search-bar"]/div/img')>
+[2020-09-02 11:46:28,726] - get_conf.py[line:31] - fuc:__console- INFO: 在点击加入购物车中点击元素<('xpath', '//*[@id="hot"]/div/div[2]/div[2]/div[2]/div[2]/span[2]/i')>
+[2020-09-02 11:46:28,726] - get_conf.py[line:31] - fuc:__console- INFO: 开始等待页面元素<('xpath', '//*[@id="hot"]/div/div[2]/div[2]/div[2]/div[2]/span[2]/i')>是否可点击！
+[2020-09-02 11:46:29,305] - get_conf.py[line:31] - fuc:__console- INFO: 页面元素<('xpath', '//*[@id="hot"]/div/div[2]/div[2]/div[2]/div[2]/span[2]/i')>等待可点击，等待时间：0.58秒
+[2020-09-02 11:46:29,306] - get_conf.py[line:31] - fuc:__console- INFO: 在点击加入购物车中查找元素<('xpath', '//*[@id="hot"]/div/div[2]/div[2]/div[2]/div[2]/span[2]/i')>
+[2020-09-02 11:46:29,358] - get_conf.py[line:31] - fuc:__console- INFO: 在进入我的购物车页面中点击元素<('xpath', '//*[@id="search-bar"]/div/div[2]/div/span/div')>
+[2020-09-02 11:46:29,359] - get_conf.py[line:31] - fuc:__console- INFO: 开始等待页面元素<('xpath', '//*[@id="search-bar"]/div/div[2]/div/span/div')>是否可点击！
+[2020-09-02 11:46:29,397] - get_conf.py[line:31] - fuc:__console- INFO: 页面元素<('xpath', '//*[@id="search-bar"]/div/div[2]/div/span/div')>等待可点击，等待时间：0.04秒
+[2020-09-02 11:46:29,398] - get_conf.py[line:31] - fuc:__console- INFO: 在进入我的购物车页面中查找元素<('xpath', '//*[@id="search-bar"]/div/div[2]/div/span/div')>
+[2020-09-02 11:46:29,491] - get_conf.py[line:31] - fuc:__console- INFO: 在点击去结算按钮中点击元素<('xpath', '//*[@id="app"]/div[4]/div/div[1]/div[5]/div[2]/div')>
+[2020-09-02 11:46:29,492] - get_conf.py[line:31] - fuc:__console- INFO: 开始等待页面元素<('xpath', '//*[@id="app"]/div[4]/div/div[1]/div[5]/div[2]/div')>是否可点击！
+[2020-09-02 11:46:29,522] - get_conf.py[line:31] - fuc:__console- INFO: 页面元素<('xpath', '//*[@id="app"]/div[4]/div/div[1]/div[5]/div[2]/div')>等待可点击，等待时间：0.03秒
+[2020-09-02 11:46:29,523] - get_conf.py[line:31] - fuc:__console- INFO: 在点击去结算按钮中查找元素<('xpath', '//*[@id="app"]/div[4]/div/div[1]/div[5]/div[2]/div')>
+[2020-09-02 11:46:29,597] - get_conf.py[line:31] - fuc:__console- INFO: 在查看是否有收货地址四个字中获取元素<('xpath', '//*[@id="app"]/div[4]/div/div/div[1]/div[1]/div')>的所有文本值
+[2020-09-02 11:46:29,598] - get_conf.py[line:31] - fuc:__console- INFO: 开始等待页面元素<('xpath', '//*[@id="app"]/div[4]/div/div/div[1]/div[1]/div')>是否可见！
+[2020-09-02 11:46:30,125] - get_conf.py[line:31] - fuc:__console- INFO: 页面元素<('xpath', '//*[@id="app"]/div[4]/div/div/div[1]/div[1]/div')>等待可见，等待时间：0.52秒
+[2020-09-02 11:46:30,126] - get_conf.py[line:31] - fuc:__console- INFO: 在查看是否有收货地址四个字中查找所有元素<('xpath', '//*[@id="app"]/div[4]/div/div/div[1]/div[1]/div')>
+[2020-09-02 11:46:30,165] - get_conf.py[line:31] - fuc:__console- INFO: 获取到的元素文本值列表为：['确认收货地址']

@@ -9,9 +9,12 @@ allure 使用方法
 https://www.cnblogs.com/123blog/p/12499802.html
 '''
 
-a=readyml(r'/var/jenkins_home/workspace/test_01/test_pytest/case/testdata.yml')
-testdata=a['test_addr']
+#==============相对路径找文件=================
+curpath=os.path.dirname(os.path.realpath(__file__))
+a=readyml(os.path.join(curpath,'testdata.yml'))
+testdata = a['test_addr']
 print(testdata)
+
 
 
 @pytest.mark.parametrize(('name','phone','alladdr'),testdata)

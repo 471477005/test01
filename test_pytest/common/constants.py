@@ -27,6 +27,11 @@ CASES_DIR = os.path.join(BASE_DIR, 'TestCases')
 #获取
 OUTPUTS_DIR = os.path.join(BASE_DIR, 'screenshot')
 
+#获取当前路径
+# curpath=os.path.dirname(os.path.realpath(__file__))
+
+
+# print(curpath)
 # print(BASE_DIR)
 # print(CONFIG_DIR)
 # print(CONFIG_FILE_PATH)
